@@ -17,9 +17,9 @@
 class PdoGsbRapports{
       	 /*--------------------Version locale---------------------------------------- */
       private static $serveur='mysql:host=localhost';
-      private static $bdd='dbname=gsbrapports';
-      private static $user='root' ;
-      private static $mdp='jeremy' ;
+      private static $bdd='dbname=nom de la base de donnée';
+      private static $user='login' ;
+      private static $mdp='mot de passe' ;
       private static $monPdo;
       private static $monPdoGsbRapports = null;
 /**
